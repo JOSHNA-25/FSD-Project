@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        h1{
+            margin: 0px;
+            text-align: center;
+        }
+
+
+        .img1{
+            position: relative;
+            width: 80vw;
+            height: 65vh;
+        }
+        .img1 img{
+            top: 20px;
+            width: 100%;
+            height: 300%;
+            position:absolute;
+            border: 10px solid greenyellow;
+        }
+
+
+        .form h2{
+            position: absolute;
+            left: 200px;
+            top: 10px;
+            border: 3px solid rgb(246, 240, 240);
+        }
+        .form{
+            position: absolute;
+            font-size: x-large;
+            top: 160px;
+            padding: 70px;
+            width: 400px;
+            margin: 30px;
+            border: 8px solid rgb(77, 3, 3) ;
+            border-radius: 7px;
+        }
+        .form input{
+            margin-left: 60px;
+            font-size: 22px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .dob{
+            margin-left: -15%;
+            font-size: 22px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .cb1{
+            margin-left: 80px; 
+        }
+        .cb2{
+            margin-left: 80px; 
+        }
+        .form button{
+            margin-left: 80px;
+            font-size: large;
+            border-color: black;
+            border-radius: 5px;
+        }
+
+
+        .form img{
+            position: absolute;
+            top: 120px;
+            left: 35%;
+            height: 20vh;
+            width: 150px;
+            border: 6px solid rgb(227, 220, 222);
+            border-style: solid;
+            border-radius: 425px;
+        } 
+
+        .img3{
+            position: absolute;
+            top: 970px;
+            left: 25%;
+            height: 20vh;
+            width: 200px;
+        }
+</style>
+
+</head>
+<body>
+    <h1>PAYMENT FORM</h1>
+    <div class="img1">
+        <img src="https://media.istockphoto.com/photos/empty-pink-shopping-bag-in-the-studio-lighting-design-concept-for-picture-id1094274086?b=1&k=20&m=1094274086&s=170667a&w=0&h=DpD9GmbfxmddHXOeWWs58rrVJkBm8h7c1lFWxaNnbUk=" alt="">
+    </div>
+    <div class="img2">
+       
+    </div>
+    <div class="form">
+        <form action="">
+            <h2>LOGIN</h2><br><br>
+            <img src="https://th.bing.com/th/id/OIP.IRbjVfGxwDBJjOyCB14OQwHaHa?rs=1&pid=ImgDetMain" alt=""><br><br><br><br><br><br><br>
+            <input type="text" placeholder="enter your name" required><br> <br>
+            <input type="email" placeholder="enter your mailID"><br> <br>
+            <div class="dob">
+                <input type="date" placeholder="dd/mm/yyyy"><br><br><br>
+            </div>
+            <label for="department">CATEGORY</label><br> <br>
+            <div class="cb1">
+                <input type="checkbox" >KURTI</input><br> 
+            <input type="checkbox" >SAREE</input><br> 
+            <input type="checkbox" >LEHENGA</input><br>
+            <input type="checkbox" >FOOTWEAR</input><br>
+            <input type="checkbox" >ACCESSORIES</input><br>
+            <input type="checkbox" >COSMETICS</input><br><br>
+            </div>
+            
+            <label for="department">PAYMENT METHOD</label><br><br>
+            <div class="cb2">
+                <input type="checkbox" >Cash</input><br> 
+                <input type="checkbox" >Credit card</input><br>
+                <input type="checkbox" >Debit card</input><br> 
+            </div><br><br>
+        
+            <button id="bt1">Submit</button>
+            </a>
+            <button id="bt2">Reset</button>
+            </form>
+            <div class="img3">
+                <img src="https://png.pngtree.com/png-clipart/20231002/original/pngtree-thank-you-for-shopping-with-us-lettering-png-image_13226600.png" alt="">
+            </div>
+    </div>
+    </body>
+</html>
